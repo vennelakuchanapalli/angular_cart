@@ -1,0 +1,24 @@
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lavender;
+    height: 40px;
+}
+#allproductslist{
+    background-color: antiquewhite;
+    width:300px;
+    text-align: center;
+
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#cartlistdiv{
+    background-color: rgb(204, 253, 225);
+    width:300px;
+    text-align: center;
+}

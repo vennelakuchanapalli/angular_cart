@@ -1,0 +1,30 @@
+<!-- <div id="header">
+  <span>{{username}}</span>
+  <input type="text" [(ngModel)]="productname" placeholder="Add Car " /><br />
+  <input type="text" [(ngModel)]="productcost" placeholder="Add cost" />
+  <button *ngIf="!isEditClicked" [disabled]="!(productname.length>0 )" (click)="addToProductlist()">Add</button>
+  <button *ngIf="isEditClicked" (click)="update()">update</button>
+
+  <button>Cart<span>{{cartListVariable.length}}</span></button>
+</div>
+<div id="container">
+  <div id="leftlist">
+    <div id="allproductslist" *ngFor="let product of productList; let i = index">
+      <p>Name : {{product.name}}</p>
+      <p>Cost : {{product.cost}}</p>
+
+      <button (click)="addToCart(i)">Addtocart</button>
+      <button (click)="edit(i)">Edit</button>
+    </div>
+  </div>
+  <div id="rightlist">
+    <div id="cartlistdiv" *ngFor="let item of cartListVariable; let i = index">
+      <p>Name of Item : {{item.name1}}</p>
+      <p>Cost of Item : {{item.cost1}}</p>
+
+      <button (click)="removeFromCart(i)">Delete</button>
+    </div>
+  </div>
+</div>  -->
+
+<app-test></app-test>
